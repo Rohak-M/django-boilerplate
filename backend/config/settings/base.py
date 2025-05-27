@@ -32,7 +32,6 @@ INSTALLED_APPS = [
     "common",
     "users",
     "apps.polls",
-    "apps.job_seekers",
 ]
 
 MIDDLEWARE = [

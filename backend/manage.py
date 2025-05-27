@@ -13,9 +13,9 @@ if __name__ == "__main__":
         if settings_module:
             print(
                 "Ignoring config('DJANGO_SETTINGS_MODULE') because it's test. "
-                "Using 'project.settings.test'"
+                "Using 'config.settings.test'"
             )
-        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings.test")
+        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings.test")
     else:
         if settings_module is None:
             print(
